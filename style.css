@@ -1,0 +1,178 @@
+  html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+header{
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  max-height: 1500px;
+}
+
+header img{
+  display:flex;
+  width: 100%;
+  max-height: 1500px;
+}
+
+/* MOBILE ONLY */
+
+@media only screen and (min-width: 519px) {
+  header img{
+    max-width: 519px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  #why img{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .chars img{
+    max-width: 500px;
+    max-height: 280px;
+  }
+  
+}
+
+@media only screen and (min-height: 500px) {
+
+  #yessir{
+    border: black 2px solid;
+    padding: 5px;
+    margin-top: 3px;
+  }
+  
+}
+
+/* END OF MOBILE ONLY */
+
+.chars{
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.chars img{
+  display: flex;
+  width: 100%;
+  max-height: 280px;
+  border-radius: 15px;
+}
+
+#char{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#why img{
+  display:flex;
+  width: 100%;
+  max-height: 338px;
+}
+
+#why{
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  max-height: 338px;
+}
+
+.hidden{
+/*   screen reader only hidden */
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+}
+
+ul a{
+  color: white;
+}
+
+ul a:hover{
+  color: white;
+}
+nav{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffd700;
+  font-size:24px;
+  padding:8px;
+  border-radius: 25px;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+  color:black;
+  text-decoration: underline;
+}
+
+main{
+  text-align: center;
+}
+
+footer{
+  border-top: black solid 3px;
+  height: 3px;
+  text-align: center;
+  font-size: 12px;
+}
+
+p{
+  font-size:16px;
+}
+
+#yessir{
+  border: black 2px solid;
+  padding: 5px;
+}
+
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#h{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bg{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#credits a{
+  font-size: 24px;
+}
+
+#cheese{
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+}
