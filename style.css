@@ -8,11 +8,13 @@
 header{
   margin: 0 auto;
   justify-content: center;
+  width: 100%;
   max-width: 512px;
 }
 
 header img{
   display:flex;
+  width: 100%;
   max-width: 512px;
 }
 
@@ -32,8 +34,8 @@ header img{
   }
 
   .chars img{
-    max-width: 500px;
-    max-height: 280px;
+    max-width: 540px;
+    max-height: 960px;
   }
   
 }
@@ -51,7 +53,7 @@ header img{
 /* END OF MOBILE ONLY */
 
 .chars{
-  max-width: 500px;
+  max-width: 960px;
   margin: 0 auto;
   justify-content: center;
   width: 100%;
@@ -60,7 +62,7 @@ header img{
 .chars img{
   display: flex;
   width: 100%;
-  max-height: 280px;
+  max-height: 540px;
   border-radius: 15px;
 }
 
